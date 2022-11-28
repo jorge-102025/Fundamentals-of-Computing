@@ -1,0 +1,171 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {background-color: #FFFFFF;}
+
+
+/* Global */
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+header{
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0;
+    color:#ffffff; 
+}
+
+
+header h1{
+    float: left;
+    margin: 0;
+}
+
+header li{
+    float:left;
+    padding: 0 20px 0 20px;
+}
+
+header li a{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+header li a:visited {
+    text-decoration: none; 
+    color: #ffffff;
+}
+
+
+/* Showcase */
+#showcase{
+    min-height:400px;
+    text-align:center;
+    color:#034c3cff;
+  }
+  
+  #showcase h1{
+    margin-top:100px;
+    font-size: 100px;
+    margin-bottom:10px;
+    text-transform: uppercase;
+
+  }
+
+  #c1 {
+    margin-top:100px;
+    font-size: 70px;
+    margin-bottom:20px;
+    text-transform: uppercase;
+    text-align:center;
+    color:#034c3cff;
+  }
+
+
+  #showcase h2{
+    margin-top:100px;
+    font-size: 70px;
+    margin-bottom:10px;
+    text-transform: uppercase;
+
+  }
+
+  #showcase h3{
+    font-size: 50px;
+
+
+  }
+  
+  #showcase a{
+      margin-top: 50px;
+      text-transform: capitalize;
+      color:#034c3cff;
+      background-color:none;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: xx-large;
+      padding: 14px 25px;
+      display: inline-block;
+      text-align: center;
+      border: 4px #034c3cff solid;
+      border-radius: 12px;
+  }
+
+  #showcase p{
+    margin-top:50px;
+    font-size: 40px;
+    margin-bottom:10px;
+
+  }
+
+
+
+#projects a{
+    margin-top: 25px;
+    margin-left: 10px ;
+    margin-right: 10px;
+}
+
+#showcase button{
+  margin-top: 50px;
+  text-transform: capitalize;
+  color:#034c3cff;
+  background-color:none;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: xx-large;
+  padding: 7px 12px;
+  display: inline-block;
+  text-align: center;
+  border: 4px #034c3cff solid;
+  border-radius: 12px;
+}
+
+#showcase form{
+  font-weight: 200;
+  font-size: xx-large;
+}
+
+#showcase input{
+  margin-top: 10px;
+  color:#034c3cff;
+  background-color:none;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: xx-large;
+  padding: 7px 12px;
+  display: inline-block;
+  text-align: center;
+  border: 4px #034c3cff solid;
+  border-radius: 12px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+/*Footer*/
+footer{
+    margin-top: 200px;
+    color: #034c3cff;
+    text-align: center;
+}

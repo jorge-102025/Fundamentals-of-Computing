@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOC</title>
+    <link rel="stylesheet" href="xorgate.css">
+	<style>
+body{
+  background-image: url(xorgate.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+</head>
+<body>
+    <header>
+    </header>
+    <section>
+        <div id="showcase">
+            <div class="container">
+                <h2>xor gate</h2>
+                <img src="xor00.png" id="xorimg" height="100">
+                <div id="projects">
+                    <button onclick="document.getElementById('xorimg').src='xor00.png'">0 AND 0</button>
+                    <button onclick="document.getElementById('xorimg').src='xor01.png'">0 AND 1</button>
+                    <button onclick="document.getElementById('xorimg').src='xor10.png'">1 AND 0</button>
+                    <button onclick="document.getElementById('xorimg').src='xor11.png'">1 AND 1</button>
+                </div>
+                <p>This is a XOR Gate.</p>
+        </div>
+    </section>
+
+    <footer>Copyright 2022</footer>
+
+	<a href="gate.html">Back to Projects</a>
+</body>
+</html>
